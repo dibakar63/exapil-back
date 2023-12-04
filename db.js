@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 
 const connectDb=async()=>{
     try {
-        await mongoose.connect('mongodb+srv://dibakardey63:OaGU4yXqRFudy14L@recipes.rglhoml.mongodb.net/task')
+        await mongoose.connect('mongodb+srv://dibakardey63:OHeaLo75G6TRf3yo@recipes.rglhoml.mongodb.net/task')
         console.log("mongodb connected")
     } catch (error) {
         console.log(error)
