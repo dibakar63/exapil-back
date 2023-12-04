@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors())
 
 app.use('/api/v1',authRoute)
-app.get('/',(res,send)=>{
+app.get('/',(res,rej)=>{
     res.send("Server is running")
 })
 app.listen(4000,()=>{
